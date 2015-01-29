@@ -4,7 +4,7 @@ private int angB = mouseX;
 private double branchAngle = 0.4;  
 public void setup() 
 {   
-	size(640+400,640, OPENGL);    
+	size(640+400,640);    
 } 
 public void draw() 
 {   
