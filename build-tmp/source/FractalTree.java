@@ -16,11 +16,10 @@ public class FractalTree extends PApplet {
 
 private double fractionLength = .8f; 
 private int smallestBranch = 10; 
-private int angB = mouseX;
 private double branchAngle = 0.4f;  
 public void setup() 
 {   
-	size(640+400,640, OPENGL);    
+	size(1040,640);    
 } 
 public void draw() 
 {   
